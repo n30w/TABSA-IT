@@ -16,7 +16,7 @@ sudo snap install openjdk --classic \
 ; sudo snap install obs-studio \
 ; sudo snap install krita \
 && \
-wget https://www.reaper.fm/files/6.x/reaper679_linux_x86_64.tar.xz
-tar -xvf reaper679_linux_x86_64.tar.xz
-rm reaper679_linux_x86_64.tar.xz
-./reaper_linux_x86_64/install-reaper.sh
+wget https://www.reaper.fm/files/6.x/reaper679_linux_x86_64.tar.xz \
+&& tar -xvf reaper679_linux_x86_64.tar.xz \
+&& rm reaper679_linux_x86_64.tar.xz \
+&& ./reaper_linux_x86_64/install-reaper.sh \ 
